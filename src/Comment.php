@@ -2,11 +2,11 @@
 
 namespace Laravelista\Comments;
 
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Laravelista\Comments\Events\CommentCreated;
 use Laravelista\Comments\Events\CommentUpdated;
 use Laravelista\Comments\Events\CommentDeleted;
-use Illuminate\Database\Eloquent\SoftDeletes;
+use Jenssegers\Mongodb\Eloquent\SoftDeletes;
 use Illuminate\Support\Facades\Config;
 
 class Comment extends Model
